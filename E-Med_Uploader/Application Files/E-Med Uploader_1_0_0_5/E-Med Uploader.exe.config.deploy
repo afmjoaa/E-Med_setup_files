@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="custom_window.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="11.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis.Auth" publicKeyToken="4b01fa6e34db77ab" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.40.2.0" newVersion="1.40.2.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis.Auth.PlatformServices" publicKeyToken="4b01fa6e34db77ab" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.40.2.0" newVersion="1.40.2.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Protobuf" publicKeyToken="a7d26565bac4d604" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Api.Gax" publicKeyToken="3ec5ea7f18953e47" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.9.0.0" newVersion="2.9.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Api.Gax.Grpc" publicKeyToken="3ec5ea7f18953e47" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.9.0.0" newVersion="2.9.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Api.CommonProtos" publicKeyToken="3ec5ea7f18953e47" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.7.0.0" newVersion="1.7.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis" publicKeyToken="4b01fa6e34db77ab" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.40.2.0" newVersion="1.40.2.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis.Core" publicKeyToken="4b01fa6e34db77ab" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.40.2.0" newVersion="1.40.2.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Collections.Immutable" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.2.3.0" newVersion="1.2.3.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <userSettings>
+    <custom_window.Properties.Settings>
+      <setting name="token" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="isLogedIn" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="refreshToken" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="expiresIn" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="created" serializeAs="String">
+        <value>12/07/2019 13:11:00</value>
+      </setting>
+      <setting name="displayName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="localId" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="federatedId" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="firstName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="LastName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="email" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="isEmailverified" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="photoUrl" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="phoneNumber" serializeAs="String">
+        <value />
+      </setting>
+    </custom_window.Properties.Settings>
+  </userSettings>
+</configuration>
